@@ -9,4 +9,12 @@ public class Home {
     public String hello(){
         return "home";
     }
+    @GetMapping("/about")
+    public String about(){
+        return "about";
+    }
+    @GetMapping("/basic")
+    public String basic(){
+        return "basic";
+    }
 }
